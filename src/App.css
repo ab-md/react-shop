@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #c5c2c2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffcc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+  margin-right: 25px;
+}
+
+.button-container button {
+  font-size: 0.9rem;
+  background-color: #1a73e8;
+  border: none;
+  color: #fff;
+  height: 30px;
+  width: 120px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 4px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-left: 5px;
+}
+
+.button-container button:hover {
+  background-color: #0b499b;
+}
+
+.small-button {
+  width: 30px !important;
+  font-size: 1.6rem !important;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.small-button span {
+  position: relative;
+  bottom: 2px;
+}
+
+.small-button img {
+  width: 20px;
+  margin-bottom: 7px;
+}
+
+.counter {
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a73e8;
+}
+
+.buy-product {
+  height: 38px !important;
+  width: 50px !important;
+  position: relative;
+  left: 25px;
 }

@@ -1,0 +1,34 @@
+.products {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 10px;
+    background-color: #5a6067;
+    border: 3px solid #06b995;
+    border-radius: 10px;
+    transition: all ease 1s;
+}
+
+.products:hover {
+    border: 3px solid #c4c723;
+}
+
+.img-container {
+    width: 300px;
+}
+
+.products-info img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform ease .5s;
+}
+
+.products-info img:hover {
+    transform: scale(1.1);
+}
+
+.products-action {
+    display: flex;
+    justify-content: space-between;
+}

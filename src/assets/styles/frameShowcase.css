@@ -1,0 +1,116 @@
+.frame-showcase {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    /* height: 310px; */
+    align-items: center;
+    background: linear-gradient( to right, #2c5364, #203a43, #0f2027 );
+}
+
+.frame-showcase .frame-container:nth-child(2) .frame-image {
+    height: 115%;
+    width: 115%;
+}
+
+.frame-container:nth-child(1) {
+    position: relative;
+    right: 30px;
+}
+
+.frame-container:nth-child(2) {
+    z-index: 1;
+}
+
+.frame-container:nth-child(3) {
+    position: relative;
+    left: 30px;
+}
+
+
+@media (max-width: 500px) {
+
+    .frame-showcase {
+        flex-direction: column;
+        height: 650px;
+    }
+
+    .frame-showcase .frame-container .frame-image, 
+    .frame-showcase .frame-container:nth-child(2) .frame-image {
+        height: 200px;
+        width: 200px;
+    }
+
+    .frame-container:nth-child(1) {
+        position: relative;
+        right: 0;
+    }
+    
+    .frame-container:nth-child(2) {
+        z-index: 1;
+    }
+    
+    .frame-container:nth-child(3) {
+        position: relative;
+        left: 0;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+
+    .frame-showcase {
+        margin-bottom: 40px;
+    }
+
+    .frame-container:nth-child(2) {
+        position: relative;
+        top: 30px;
+    }
+
+    .frame-container:nth-child(1) {
+        position: relative;
+        right: 20px;
+    }
+
+    .frame-container:nth-child(3) {
+        position: relative;
+        left: 20px;
+    }
+
+    .frame-showcase .frame-container .frame-image, 
+    .frame-showcase .frame-container:nth-child(2) .frame-image {
+        height: 115%;
+        width: 115%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    
+    .frame-showcase .frame-container .frame-image {
+        height: 320px;
+        width: 320px;
+    }
+
+    
+    .frame-showcase .frame-container:nth-child(2) .frame-image {
+        height: 370px;
+        width: 370px;
+    }
+
+    .frame-showcase {
+        height: 400px;
+    }
+
+    .frame-container:nth-child(1) {
+        position: relative;
+        right: 70px;
+    }
+
+    .frame-container:nth-child(3) {
+        position: relative;
+        left: 70px;
+    }
+
+}

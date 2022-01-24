@@ -1,0 +1,8 @@
+.banner {
+    background-image: url('../images/bg&logo/bg1.jpg');
+    background-size: cover;
+    background-position: top;
+    background: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}

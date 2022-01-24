@@ -1,0 +1,59 @@
+.card-container {
+    background-color: #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.5rem;
+}
+
+.card-container img {
+    width: 300px;
+}
+
+.info, .counter {
+    margin: 0.5rem;
+}
+
+.info p {
+    font-weight: bold;
+}
+
+.info span {
+    background-color: rgb(10, 145, 46);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.counter {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    padding-top: 5px;
+}
+
+.counter span {
+    background-color: rgb(62, 62, 202);
+    padding: 3px 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.counter button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.deactive {
+    opacity: 0.4;
+}
+
+.hide {
+    display: none;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative;
+    bottom: 100px; */
+}

@@ -1,0 +1,137 @@
+.singings-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 15px;
+    height: 600px;
+}
+
+.login-page {
+    height: 500px;
+}
+
+.login-page .form-field {
+    height: 20px;
+}
+
+.form-container {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 75px;
+}
+
+.form-field label {
+    text-align: right;
+    margin-bottom: 5px;
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+}
+
+.form-field span,
+.checkbox-container span {
+    color: #ff0000;
+    font-size: .7rem;
+    background-color: rgba(255, 0, 0, 0.175);
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form-buttons button {
+    background-color: #1a73e8;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.form-buttons button:hover {
+    background-color: #004aaa;
+}
+
+.form-buttons a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+    font-weight: 700;
+}
+
+.form-buttons a:hover {
+    color: #004aaa;
+}
+
+.form-input {
+    border: 1px solid silver;
+    border-radius: 5px;
+    outline: none;
+    height: 2.25rem;
+    padding: 10px;
+
+}
+
+.uncompleted {
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    outline: none;
+    height: 2.25rem;
+    padding: 10px;
+    transition: all 0.4s ease-in;
+}
+
+.form-input:focus,
+.uncompleted:focus {
+    border: 1px solid #1a73e8;
+}
+
+.header {
+    text-align: right;
+    font-size: 1.8rem;
+    color: #1a73e8;
+}
+
+.checkbox-container {
+    font-size: 0.85rem;
+    height: 20px !important;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.checkbox-container label {
+    color: #1a73e8;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #1a73e8;
+    border-radius: 50%;
+}
+
+@media (max-width: 650px) {
+
+    .singings-container {
+        padding: 1rem;
+    }
+
+}
